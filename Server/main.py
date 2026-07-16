@@ -1,5 +1,5 @@
 from infrastructure.network.protocol.protocol import Protocol
-from infrastructure.session.client_session import ClientSession
+from appliaction.session.client_session import ClientSession
 from infrastructure.system.select_client import SelectClient
 from threading import Thread
 from server import Server

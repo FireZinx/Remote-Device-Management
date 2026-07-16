@@ -1,5 +1,5 @@
 from infrastructure.codecs.process_image import ProcessImage
-from infrastructure.network.constants import PacketType
+from domain.packet import PacketType
 from threading import Thread
 
 import cv2

@@ -1,7 +1,7 @@
-from infrastructure.network.constants import PacketType
-from workers.camera_process import CameraProcess
-from workers.command_process import CommandProcess
-from workers.screen_process import ScreenProcess
+from domain.packet import PacketType
+from appliaction.handlers.camera_process import CameraProcess
+from appliaction.handlers.command_process import CommandProcess
+from appliaction.handlers.screen_process import ScreenProcess
 from multiprocessing import Process
 
 import time

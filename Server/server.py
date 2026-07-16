@@ -1,4 +1,4 @@
-from infrastructure.session.handle_session import SessionHandler
+from appliaction.session.handle_session import SessionHandler
 from threading import Thread
 
 import socket

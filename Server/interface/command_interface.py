@@ -1,4 +1,4 @@
-from workers.command_process import CommandProcess
+from appliaction.handlers.command_process import CommandProcess
 from threading import Thread
 
 import keyboard

@@ -1,8 +1,8 @@
-from infrastructure.controller.client_controller import ClientController
+from application.client_controller import ClientController
 from infrastructure.network.client_receiver import ClientReceiver
 from infrastructure.network.client import Client
 from infrastructure.queue.packet_queue import QueueClass
-from worker.generate_threads import GenerateThreads
+from capture.generate_threads import GenerateThreads
 from threading import Event
 import time
 
@@ -18,8 +18,6 @@ class Application():
         
     def start(self):
         while True:
-            print("Attempting to connect to server...")
-
             self.event = Event()
             self.queue = QueueClass(self.event)
 
@@ -32,8 +30,6 @@ class Application():
                 self.queue.clear()
 
                 self.threads = GenerateThreads.create(self)
-
-                print("test")
                 
                 self.client_controller = ClientController.start(self)
 

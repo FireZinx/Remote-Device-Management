@@ -1,6 +1,6 @@
 from interface.command_interface import CommandInterface
 from controller.server_controller import ServerController
-from session.client_session import ClientSession
+from infrastructure.session.client_session import ClientSession
 
 class SelectHost:
     def start(self, client_session, Protocol):

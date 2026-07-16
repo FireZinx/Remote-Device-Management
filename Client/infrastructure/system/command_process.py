@@ -1,5 +1,6 @@
 from infrastructure.queue.packet_queue import Queue
 import subprocess
+import sys
 
 class Command():
     def execute(data):

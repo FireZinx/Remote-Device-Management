@@ -1,5 +1,5 @@
 from infrastructure.codecs.command_decode import DecodeData
-from infrastructure.network.constants import PacketType
+from domain.packet import PacketType
 from infrastructure.network.protocol.protocol import Protocol
 
 class CommandProcess():

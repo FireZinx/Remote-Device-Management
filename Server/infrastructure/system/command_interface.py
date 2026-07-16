@@ -1,5 +1,5 @@
-from workers.command_process import CommandProcess
-from infrastructure.network.constants import PacketType
+from appliaction.handlers.command_process import CommandProcess
+from domain.packet import PacketType
 from threading import Thread
 
 import keyboard

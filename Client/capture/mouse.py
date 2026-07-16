@@ -1,4 +1,4 @@
-from infrastructure.network.constants import PacketType
+from domain.packet import PacketType
 
 import pyautogui
 import time

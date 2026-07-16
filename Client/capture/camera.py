@@ -1,5 +1,5 @@
 from infrastructure.compression.encode_image import EncodeImage
-from infrastructure.network.constants import PacketType
+from domain.packet import PacketType
 
 import asyncio
 import time

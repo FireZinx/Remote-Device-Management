@@ -1,7 +1,7 @@
 from infrastructure.network.client_sender import ClientSend
-from worker.get_camera import GetCamera
-from worker.get_screen import GetScreen
-from worker.redirect_mouse import Mouse
+from capture.camera import GetCamera
+from capture.screen import GetScreen
+from capture.mouse import Mouse
 from threading import Thread
 
 class GenerateThreads:

@@ -1,8 +1,8 @@
 from infrastructure.network.client_receiver import ClientReceiver
-from infrastructure.network.constants import PacketType
 from infrastructure.system.command_process import Command
-from worker.generate_threads import GenerateThreads
-from worker.redirect_mouse import Mouse
+from capture.generate_threads import GenerateThreads
+from domain.packet import PacketType
+from capture.mouse import Mouse
 
 import os
 import sys
